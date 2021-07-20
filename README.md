@@ -100,7 +100,7 @@
     * The `async` keyword is added to a function to tell it to return a promise rather than directly returning the value.
     * `await` can be put in front of any `async` promise based function to pause your code on that line until the promise is fulfilled and then return the resulting value.
     * `await` only works inside of `async` functions.
-    ![](https://media.giphy.com/media/fYNcUcSzVXMJH4ypmm/giphy.gif)
+   ![](https://media.giphy.com/media/fYNcUcSzVXMJH4ypmm/giphy.gif)
   
 ---
 

@@ -4,4 +4,9 @@ puts "Hi..."
 sleep(1)
 puts "Just waking up..."
 
-# What will print out when we run this code?
+# Oh
+# Hi...
+# Just waking up...
+
+# Ruby is a BLOCKING language
+# it will NOT move on to the next line until the current line is finished

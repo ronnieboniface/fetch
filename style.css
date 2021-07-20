@@ -1,0 +1,102 @@
+body {
+  font-family: 'Open Sans';
+  color: #253237;
+  background-image: url(images/dragon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.header {
+  margin: auto;
+  margin: .75rem;
+  font-family: 'Gloria Hallelujah';
+  font-size: 4rem;
+  color: #E0FBFC;
+  text-align: center;
+}
+
+article {
+  background-color: #9DB4C0;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+#form {
+  padding: 1rem;
+  align-self: center;
+}
+
+#form input {
+  padding: .25rem;
+  border: 1px solid #5C6B73;
+  border-radius: .25rem;
+  font-family: 'Open Sans';
+  color: #253237;
+}
+
+#form button {
+  padding: .25rem .75rem;
+  border-radius: .25rem;
+  border: 1px solid #5C6B73;
+  font-family: 'Open Sans';
+  color: #253237;
+}
+
+#results {
+  list-style: none;
+}
+
+#search {
+  float: left;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+#info {
+  float: right;
+  padding: 1rem;
+  width: 45%;
+  font-family: 'Gloria Hallelujah';
+  color: #5C6B73;
+}
+
+.info {
+  padding: .5rem;
+  float: left;
+  text-align: center;
+}
+
+.attacks {
+  padding: .5rem;
+  float: right;
+  text-align: center;
+}
+
+#name {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.stats {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+#info li {
+  font-family: 'Open Sans';
+  color: #253237;
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
